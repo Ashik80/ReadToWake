@@ -1,6 +1,8 @@
 @import '../node_modules/bootstrap-css-only/css/bootstrap.min.css';
 @import '../node_modules/mdbreact/dist/css/mdb.css';
 @import '../node_modules/font-awesome/css/font-awesome.min.css';
+@import '../node_modules/alertifyjs/build/css/alertify.min.css';
+@import '../node_modules/alertifyjs/build/css/themes/bootstrap.min.css';
 
 p {
   margin: 0;
@@ -8,5 +10,5 @@ p {
 }
 
 body {
-  background-color: #b388ff;
+  background-color: #ccafff;
 }

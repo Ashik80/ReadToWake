@@ -1,0 +1,11 @@
+.content {
+  position: relative;
+  top: 10%;
+  color: #ebd4c2;
+}
+
+.home-page {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("./purple.jpg");
+  background-size: cover;
+  height: calc(100vh - 74px);
+}

@@ -17,4 +17,8 @@ const Book = {
     getBook: (id: number): Promise<IBook> => request.get(`/books/${id}`)
 }
 
-export default { Book }
+const Auth = {
+    login: (user: any) => request.post('/auth/login', user)
+}
+
+export default { Book, Auth }

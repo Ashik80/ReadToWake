@@ -27,7 +27,7 @@ const ReadingButton: React.FC<IProps> = ({ buttonText, color, size, fluid }) => 
         <MDBDropdownToggle size={size} caret color={color} className="mx-0" />
         <MDBDropdownMenu>
           <MDBDropdownItem>Want to Read</MDBDropdownItem>
-          <MDBDropdownItem>Currently Reading</MDBDropdownItem>
+          <MDBDropdownItem>Reading</MDBDropdownItem>
           <MDBDropdownItem>Done Reading</MDBDropdownItem>
         </MDBDropdownMenu>
       </MDBBtnGroup>

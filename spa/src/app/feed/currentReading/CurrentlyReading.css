@@ -1,0 +1,9 @@
+.view-all-link {
+    transition: all 0.5s;
+    width: fit-content;
+}
+
+.view-all-link:hover {
+    transform: translate(10px);
+    transition: all 0.5s;
+}

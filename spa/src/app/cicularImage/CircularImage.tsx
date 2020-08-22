@@ -1,9 +1,14 @@
 import React from "react";
+import defaultImg from './user.png';
 
-const CircularImage = () => {
+interface IProps {
+  imageUrl?: string
+}
+
+const CircularImage: React.FC<IProps> = ({imageUrl}) => {
   return (
     <img
-      src="https://images.unsplash.com/photo-1597792694946-85c191c617dc?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixlib=rb-1.2.1&q=80&w=400"
+      src={imageUrl !== 'default' ? imageUrl : defaultImg}
       alt=""
       className="rounded-circle w-100"
     />

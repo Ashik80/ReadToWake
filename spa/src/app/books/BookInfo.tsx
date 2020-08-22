@@ -2,7 +2,6 @@ import React, { useContext, useEffect } from "react";
 import { RouteComponentProps } from "react-router-dom";
 import BookStore from "../../stores/bookStore";
 import { observer } from "mobx-react-lite";
-import BookDetails from "../feed/event/BookDetails";
 import ReadingButton from "../ReadingButtons/ReadingButton";
 
 interface IProps {
